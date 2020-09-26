@@ -6480,8 +6480,8 @@ The next query finds the total distance of all routes from any airport in Madrid
 any airport anywhere and also does the same calculation but minus any routes that end
 up in any Paris airport. We have not yet seen the 'filter' step that is used below.
 It is one of the foundational Gremlin steps that many others such as 'where' build
-upon. A 'filter' step will only pass on to the next step in the query incoming
-elements that meet the criteria specified within the 'filter'.
+upon. A 'filter' step will only pass on to the next step in the query if the incoming
+elements meet the criteria specified within.
 
 [source,groovy]
 ----
